@@ -79,6 +79,8 @@ Worker commands:
 
 Other commands:
 
+* stats
+* stats-tube
 * stats-job
 * quit
 
