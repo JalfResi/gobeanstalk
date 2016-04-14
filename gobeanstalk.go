@@ -257,7 +257,7 @@ raw YAML returned by beanstalkd.
 */
 func (c *Conn) Stats() ([]byte, error) {
 	//send command and read response
-	cmd := fmt.Sprintf("stats\r\n", id)
+	cmd := fmt.Sprintf("stats\r\n")
 	resp, err := sendGetResp(c, cmd)
 	if err != nil {
 		return nil, err
